@@ -1,0 +1,43 @@
+
+.title {
+    font-weight: bold;
+    margin:12px 0px 4px 0px;
+    color:#0f0f0f;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    overflow-wrap: break-word;
+   
+}
+.container{
+    width:15em;
+    margin: 10px 0.2em;
+    float: left;
+    position: relative;
+    height: 100%;  
+}
+.pic img{
+    width: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+  }
+
+.container img {
+    object-fit: contain;
+    
+}
+.channel, .views{
+    font-size: small;
+    color: #606066;
+    margin-bottom: 0.2em; 
+    
+  }
+  .close {
+position: absolute;
+right: 2px;
+top:8px
+  }
+  .edit {
+    position: absolute;
+    right: 50px;
+    top:8px
+      }
