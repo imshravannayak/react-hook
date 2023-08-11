@@ -14,6 +14,8 @@ function App() {
   const [videos,dispatch]=useReducer(videoReducer,videosData)
   function videoReducer(videos,action){
 switch (action.type){
+  case 'LOAD':
+    return [videos];
 case 'ADD':
 return [...videos, { ...action.video, id: videos.length + 1 }];
 case 'DELETE':
